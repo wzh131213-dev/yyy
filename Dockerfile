@@ -14,7 +14,7 @@ RUN git clone --depth 1 https://github.com/Joker-chichi/claude-mv-skill.git /opt
  && test -d /opt/painted-animation/upstream/skills/painted-animation/template \
  && cp -a /opt/painted-animation/upstream/skills/painted-animation/template /opt/painted-animation/template \
  && cd /opt/painted-animation/template \
- && if [ -f package.json ]; then npm install --omit=dev; fi
+ && if [ -f package.json ]; then npm install; fi
 
 WORKDIR /app
 COPY package.json ./
