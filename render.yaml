@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: claude-mv-remote-connector
+    runtime: docker
+    plan: starter
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ACCESS_TOKEN
+        generateValue: true
+      - key: WORKSPACES
+        value: /app/workspaces
+      - key: PAINTED_ANIMATION_TEMPLATE
+        value: /opt/painted-animation/template
+      - key: CHROME_PATH
+        value: /usr/bin/chromium
+      - key: RENDER_SOFT_GL
+        value: "1"
+    disk:
+      name: mv-workspaces
+      mountPath: /app/workspaces
+      sizeGB: 5
