@@ -2,7 +2,7 @@
 
 name: painted-animation
 description: Plan, create, implement, review, and troubleshoot hand-painted watercolor-and-ink animations, animated shorts, lyric music videos, karaoke subtitles, music-synchronized visuals, storyboards, and code-generated MP4 videos. Use this skill whenever the user requests an animated music video, lyric video, animation, animated loop, storyboard, beat synchronization, subtitle timing correction, or video rendering workflow.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---
 
 # Painted Animation
 
